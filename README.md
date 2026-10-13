@@ -86,7 +86,7 @@ Relacionamentos: um Cliente **faz** 0..N Pedidos; um Produto é **vendido em** 0
 
 `POST /clientes`
 ```json
-{ "nome": "SeuNome123456", "clienteDesde": "2026-03-01" }
+{ "nome": "KennedyFerreira5475257", "clienteDesde": "2026-03-01" }
 ```
 
 `POST /produtos`
@@ -103,7 +103,7 @@ Resposta do pedido (já traz os dados do cliente e do produto):
 ```json
 {
   "id": 1,
-  "cliente": { "id": 1, "nome": "SeuNome123456", "clienteDesde": "2026-03-01" },
+  "cliente": { "id": 1, "nome": "KennedyFerreira5475257", "clienteDesde": "2026-03-01" },
   "produto": { "id": 1, "nome": "Baozi de Porco", "preco": 7.50, "estoque": true },
   "quantidade": 12
 }
@@ -112,4 +112,4 @@ Resposta do pedido (já traz os dados do cliente e do produto):
 ## Postman
 
 Importe `postman/BaoziStore.postman_collection.json` no Postman. A variável `baseUrl` já vem como
-`http://localhost:8080`. Troque `SeuNome123456` pelo seu nome + RU antes de tirar os prints.
+`http://localhost:8080`.
